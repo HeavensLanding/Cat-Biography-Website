@@ -1,0 +1,116 @@
+/* This is the title of the homepage styled */
+.title{
+    color: rgb(174, 45, 45);
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* this is the image of the homepage styled*/
+#allcatimage{
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* this is the intro paragraph styled */
+.introp{
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 1rem;
+    height: fit-content;
+    font-size:20px;
+}
+
+/* this is a combination of the intro paragraph and the intro image into one stylized section */
+.intropimg {
+    background-color: rgb(197, 247, 255);
+    padding: 10px;
+    margin: 1rem;
+    display: flex;
+    gap: 0.7rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+/*this defines the header at each page */
+.header{
+    color: rgb(175, 75, 75);
+
+}
+
+/* all of this next part formats the table */
+table{
+    border-collapse: collapse;
+    width:fit-content;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border: 3px solid black;
+}
+
+tr:nth-child(even){
+    background-color: salmon;
+}
+
+tr:hover{
+    background-color: aqua;
+}
+
+/* this is the settings for the form for voting for the cats */
+.form{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+/* this sets up the styles for the navigation area between pages only on index page*/
+.links{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+.linksptwo{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*this is the formatting for the Aussie page name and image*/
+.aussiename{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 1rem;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    font-size: 20px;
+}
+
+/*this formats specifically the image only for the curvature and shadow*/
+.aussieimg{
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*formatting of bio and nicknames*/
+.aussiebody{
+    background-color: rgb(197, 247, 255);
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 1rem;
+    height: fit-content;
+    font-size:20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}

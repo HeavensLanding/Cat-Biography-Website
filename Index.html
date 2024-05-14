@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
+    <link rel="stylesheet" href="Styles.css">
   </head>
 
   <body>
     <!--This is an introduction of the cats-->
-    <h1>Welcome to the Rasmussen Cat Biographies</h1>
-    <img
-      src="3 Cats.jpg"
-      width="400px"
-      alt="Three cats laying on a bed, staring at the camera."
-    />
-    <section>
-      <p>
-        Here in the Rasmussen household, it's raining cats and dogs every day!
-        Well, maybe just cats and only three...<br />
-        How about we just dive right into this with a little biography on each
-        of the gatos and at the end of your stay, make sure to submit your vote
-        for your favorite Rasmussen Cat!
-      </p>
-    </section>
+    <h1 class="title">Welcome to the Rasmussen Cat Biographies</h1>
+    <div class="intropimg">
+      <img id="allcatimage"
+        src="3 Cats.jpg"
+        width="400px"
+        alt="Three cats laying on a bed, staring at the camera."
+      />
+      <section>
+        <p class="introp">
+          Here in the Rasmussen household, it's raining cats and dogs every day!
+          Well, maybe just cats and only three...<br />
+          How about we just dive right into this with a little biography on each
+          of the gatos and at the end of your stay, make sure to submit your vote
+          for your favorite Rasmussen Cat!
+        </p>
+      </section>
     <!-- This is a table of the cats name, breed and color-->
     <section>
-      <h2>The Cats in Question</h2>
+      <h2 class="header">The Cats in Question</h2>
       <table>
         <tr>
           <th>Name</th>
@@ -49,19 +51,23 @@
         </tr>
       </table>
     </section>
+    </div>
     <!--This is where the screen user can navigate between pages-->
     <section>
-      <h2>Let's navigate the biographies here:</h2>
+      <div class="links">
+      <h2 class="header">Let's navigate the biographies here:</h2>
       <a href="Aussie.html">Aussie</a><br />
       <a href="Honeybee.html">Honeybee</a><br />
       <a href="Tino.html">Tino</a> <br />
       <a href="Index.html"> Homepage</a>
+      </div>
     </section>
     <!--This section allows for screen users to vote for their favorite cat and get email results.-->
     <section>
+      <div class="form">
       <h2>Vote for your favorite cat here:</h2>
       Which feline was the cat's meow? <br />
-      <form>
+      <form >
         <input
           type="text"
           name="Email me results!"
@@ -72,6 +78,7 @@
         <input type="radio" name="cat" value="Tino" /> Tino <br />
         <button>Submit</button>
       </form>
+      </div>
     </section>
     <hr/>
     <footer>Created by Heaven's Landing</footer>
